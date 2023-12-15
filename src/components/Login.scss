@@ -1,0 +1,82 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  /* Form itself */
+  form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs */
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid#ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  // /* Email and password inputs */
+  // .email,
+  // .password {
+  //   font-size: 16px;
+  // }
+  
+  /* Error message */
+  .error-message {
+    color: #d9534f;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3490bd;
+  }
+  
+  /* Link for switching between sign in/up */
+  .switch-link {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  
+  /* Styling based on isSignInForm state */
+  .is-sign-in .switch-link {
+    text-decoration: underline;
+  }
+  
